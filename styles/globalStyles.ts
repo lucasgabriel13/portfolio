@@ -28,9 +28,14 @@ const GlobalStyle = createGlobalStyle`
     --white: #ffffff;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body { 
     background: var(--blue-800);
     color: var(--white);
+    overflow-x: hidden;
   }
 
   @media (max-width: 1080px) {
