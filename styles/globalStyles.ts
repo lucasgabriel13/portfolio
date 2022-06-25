@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  
   :root{
     --gray-400: #a5a5a5;
 
@@ -66,6 +67,21 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
+
+  /* ---- Scroll Bar ---- */
+
+  * {
+    &::-webkit-scrollbar{
+      width: 1rem;           
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--green-100);    /* color of the scroll thumb */
+      border-radius: 50px;       /* roundness of the scroll thumb */
+      border: 5px solid var(--blue-800);
+    }  
+}
+
 
 `;
 

@@ -17,7 +17,7 @@ export function Header() {
       <nav className={`${menuIsOpen && "show"}`}>
         <ul className="menu">
           <li>
-            <a href="#sobre" onClick={handleToggleOpenMenu}>
+            <a href="#about" onClick={handleToggleOpenMenu}>
               Sobre
             </a>
           </li>

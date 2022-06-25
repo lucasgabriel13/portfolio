@@ -26,7 +26,7 @@ export const Header = styled.header`
         }
 
         a {
-          transition: 1s;
+          transition: 0.5s;
 
           &::after {
             content: "";
@@ -68,23 +68,23 @@ export const Header = styled.header`
       right: 1rem;
       visibility: hidden;
       opacity: 0;
+      z-index: 1;
     }
   }
 
   @media screen and (max-width: 768px) {
-
     img {
       width: 3rem;
     }
 
     nav {
+      
       .menu {
         position: fixed;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: var(--blue-800);
 
         transition: 0.2s;
 
@@ -110,6 +110,8 @@ export const Header = styled.header`
     nav.show {
       .menu {
         top: 0;
+        background: var(--blue-800);
+        z-index: 1;
       }
       .closeMenu {
         visibility: visible;
