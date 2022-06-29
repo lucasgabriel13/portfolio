@@ -22,12 +22,12 @@ export function Header() {
             </a>
           </li>
           <li>
-            <a href="#" onClick={handleToggleOpenMenu}>
+            <a href="#skills" onClick={handleToggleOpenMenu}>
               Skills
             </a>
           </li>
           <li>
-            <a href="#" onClick={handleToggleOpenMenu}>
+            <a href="#projects" onClick={handleToggleOpenMenu}>
               Projetos
             </a>
           </li>
@@ -37,6 +37,7 @@ export function Header() {
             </a>
           </li>
         </ul>
+
         <CgMenuRightAlt
           className="toggle openMenu"
           onClick={handleToggleOpenMenu}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "FeedWidget",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/167265050-cfdb8355-1a17-48db-adef-415a5cb8cb10.png",
+    "description": "Esta aplicação tem como objetivo de cadastrar os Feedbacks e a captura da tela ,em situações de bug, dos usuários de uma aplicação web ou mobile.",
+    "github_url": "https://github.com/lucasgabriel13/FeedWidget",
+    "homepage": "https://feedwidget.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "Podcastr",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/163899927-cebc4f49-a37e-4362-bc47-a3eda351ddbf.png",
+    "description": "O Podcastr centraliza todos os podcasts produzidos pela Rocketseat em uma inteface web reponsiva, trazendo uma excelente experiência para o usuário",
+    "github_url": "https://github.com/lucasgabriel13/Podcastr",
+    "homepage": "https://podcastr-7q6kg67ot-lucasgabriel13.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Letmeask",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/176337363-5a506421-cf4b-4fa5-9a66-110a36358840.png",
+    "description": "Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.",
+    "github_url": "https://github.com/lucasgabriel13/letmeask",
+    "homepage": "https://letmeask-165n7pm6o-lucasgabriel13.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "MoveIt",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/161757626-54442d49-8c2d-4755-88ee-0bcf499f6d0e.png",
+    "description": "Essa aplicação foi desenvolvida com o objetivo de realizar a técnica de pomodoro juntamente com a inserção de atividades físicas durantes as pausas.",
+    "github_url": "https://github.com/lucasgabriel13/moveit",
+    "homepage": "https://moveit-one-pink.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "RocketShoes",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/162858672-651687fe-429b-490f-a48f-fb7ae4572f52.png",
+    "description": "Essa aplicação teve como seu principal objetivo realiza a simulação de um de carrinho de compras.",
+    "github_url": "https://github.com/lucasgabriel13/RocketShoes",
+    "homepage": "https://rocketshoes-kappa.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "Event Platform",
+    "photo_url": "https://user-images.githubusercontent.com/44211093/175783670-ecb5085a-77f6-4453-b81c-fb4fc9310c49.png",
+    "description": "Aplicação desenvolvida consiste em uma plataforma para a realização de eventos on-line, onde cada aula é disponibilizada em um dia específico da semana.",
+    "github_url": "https://github.com/lucasgabriel13/event-platform",
+    "homepage": "https://event-platform-brown.vercel.app/"
+  }
+]

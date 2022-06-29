@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 
     --green-100: #00da9d;
     --green-400: #009fa1;
+    --green-800: #1C3240;
     --green-linear: linear-gradient(rgba(0, 218, 155, 1), rgba(0, 159, 161, 1));
 
     --blue-800: #132733;

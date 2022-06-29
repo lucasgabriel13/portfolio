@@ -49,8 +49,28 @@ export const Section = styled.section`
     p {
       font-size: 2rem;
       margin-top: 2rem;
+      line-height: 2rem;
     }
     
   }
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    padding: 1rem;
+
+    .profileDescription {
+      text-align: center;
+      
+      h2{
+        font-size:2.4rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
 
 `
