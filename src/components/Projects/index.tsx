@@ -1,5 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
-import repos from '../../../../projects.json';
+import repos from '../../../projects.json';
 import * as C from './styles';
 
 export function Projects() {

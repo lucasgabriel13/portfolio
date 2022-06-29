@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillCard } from './SkillCard';
+import { SkillCard } from '../SkillCard';
 import { Slide } from "react-awesome-reveal";
 import { MultiSlider } from "../MultiSlider";
 

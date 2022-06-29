@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { Fragment } from "react";
 import type { AppProps } from "next/app";
-import { Header } from "./components/Header";
+import { Header } from "../components/Header";
 
 import GlobalStyle from "../../styles/globalStyles";
 
