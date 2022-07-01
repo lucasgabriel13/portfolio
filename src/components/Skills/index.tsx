@@ -4,6 +4,7 @@ import { Slide } from "react-awesome-reveal";
 import { MultiSlider } from "../MultiSlider";
 
 import * as C from './styles';
+import { Title } from "../Title";
 
 const skills = [
   { name: 'HTML5', logo: 'html5.png' },
@@ -19,10 +20,7 @@ export function Skills() {
     <C.Section id="skills">
       {/*@ts-ignore*/}
       <Slide triggerOnce>
-        <div className="title">
-          <img src="/images/arrow-down.svg" alt="Seção de Skills" />
-          <h3>Skills</h3>
-        </div>
+        <Title title="Skills" />
       </Slide>
       <MultiSlider>
         {skills.map(skill => (

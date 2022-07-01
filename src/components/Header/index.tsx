@@ -32,7 +32,7 @@ export function Header() {
             </a>
           </li>
           <li>
-            <a href="#" onClick={handleToggleOpenMenu}>
+            <a href="#contact" onClick={handleToggleOpenMenu}>
               Contato
             </a>
           </li>

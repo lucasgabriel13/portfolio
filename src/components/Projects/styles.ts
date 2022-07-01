@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   max-width: 1116px;
-  margin: 0 auto 10rem;
+  margin: 0 auto;
 
   display: flex;
   flex-direction: column;

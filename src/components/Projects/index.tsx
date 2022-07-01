@@ -1,16 +1,14 @@
 import { FaGithub } from 'react-icons/fa';
 import repos from '../../../projects.json';
+import { Title } from '../Title';
 import * as C from './styles';
 
 export function Projects() {
 
   return (
     <C.Section id="projects">
-      <div className="title">
-        <img src="/images/arrow-down.svg" alt="Seção de Projetos" />
-        <h3>Projetos</h3>
-      </div>
-
+      <Title title="Projetos" />
+      
       <div className="projectsContainer">
         {repos?.map((repo) => (
           <div className="projectContent" key={repo.id}>

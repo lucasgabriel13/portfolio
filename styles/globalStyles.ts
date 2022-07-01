@@ -73,7 +73,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     &::-webkit-scrollbar{
-      width: 1rem;           
+      width: 1rem;          
     }
 
     &::-webkit-scrollbar-thumb {
