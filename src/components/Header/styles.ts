@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const Header = styled.header`
   max-width: 1116px;
@@ -26,8 +26,6 @@ export const Header = styled.header`
         }
 
         a {
-          transition: 0.5s;
-
           &::after {
             content: "";
             width: 0;
@@ -36,6 +34,7 @@ export const Header = styled.header`
             bottom: 0;
             left: 0;
             position: absolute;
+            transition: 0.3s;
           }
 
           &:hover {
@@ -47,7 +46,6 @@ export const Header = styled.header`
               bottom: 0;
               left: 0;
               position: absolute;
-              transition: 0.5s;
             }
           }
         }
@@ -85,9 +83,6 @@ export const Header = styled.header`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        transition: 0.2s;
-
         width: 100%;
         height: 100vh;
 
