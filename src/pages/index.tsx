@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ToastContainer } from "react-toastify";
 import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import { Main } from "../components/Main";
@@ -13,12 +14,23 @@ export default function Home() {
       <Head>
         <title>Lucas Gonçalves | Desenvolvedor Front-end</title>
       </Head>
+      <ToastContainer
+        position="top-right"
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        autoClose={5000}
+        draggable
+        pauseOnHover
+      />
       <Main />
       <Profile />
       <Skills />
       <Projects />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   );
 };

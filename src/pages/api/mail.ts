@@ -3,27 +3,36 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
 
+  const { name, email, message } = req.body;
+
   let transporter = nodemailer.createTransport({
-    host: 'smtp.umbler.com',
+    host: 'smtp.office365.com',
     port: 587,
     auth: {
-      user: 'mails@lucasgoncalves.tech',
-      pass: '917382465Lucas!'
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD
     }
   })
 
   const mailOptions = {
-    from: 'mails@lucasgoncalves.tech',
+    from: process.env.EMAIL,
     to: 'dev.lucas.goncalves@gmail.com',
-    subject: 'Vindo do Website',
-    html: '<p>Olá, esta é apenas uma mensagem de teste</p>'
+    replyTo: email,
+    subject: 'CONTATO ATRAVÉS DO SITE',
+    html: `
+    <p>Nome: ${name}</p>
+    <p>Email: ${email}</p>
+    <p>Mensagem: ${message}</p>
+    `
   }
 
-  await transporter.sendMail(mailOptions, (err, info) => {
-    if (err)
-      console.log(err)
-    else
-      console.log(info);
+  transporter.sendMail(mailOptions, (err, info) => {
+    if (err) {
+      return res.status(400).end(err.message);
+    }
+    else {
+      return res.status(200).send("Mensagem enviada com sucesso!")
+    }
   });
 
 }
