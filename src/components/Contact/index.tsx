@@ -50,15 +50,15 @@ export function Contact() {
               <p>Você pode entrar em contato comigo em qualquer horário. Prometo responder o mais rápido possível.</p>
             </div>
             <div className="socialMediasGroup">
-              <a href="#">
+              <a href="https://wa.me/5535984625339" target={`_blank`}>
                 <FaWhatsapp size={40} />
                 <span>(35) 98462-5339</span>
               </a>
-              <a href="#">
+              <a href="mailto:lucas.gabriel.goncalves12@gmail.com" target={`_blank`}>
                 <MdEmail size={40} />
                 <span>lucas.gabriel.goncalves12@gmail.com</span>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/lucas-gon%C3%A7alves-96719b16a/" target={`_blank`}>
                 <FaLinkedin size={40} />
                 <span>Lucas Gonçalves</span>
               </a>
