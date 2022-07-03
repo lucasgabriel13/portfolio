@@ -9,6 +9,8 @@ export const Main = styled.main`
   align-items: center;
   justify-content: space-between;
 
+  z-index: -1;
+
   position: relative;
 
   #backgroundImageMain {
