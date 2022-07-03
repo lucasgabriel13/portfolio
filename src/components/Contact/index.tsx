@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
@@ -5,6 +6,8 @@ import { api } from '../../service/api';
 import { Title } from '../Title';
 import { Fade } from "react-awesome-reveal";
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 import * as C from './styles';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,6 +20,8 @@ interface IFormInput {
 
 export function Contact() {
 
+  const [isLoading, setIsLoading] = useState(false);
+
   const { register, handleSubmit, reset, formState: { errors } } = useForm<IFormInput>({
     defaultValues: {
       name: '',
@@ -27,12 +32,15 @@ export function Contact() {
 
   const onSubmit: SubmitHandler<IFormInput> = async (data) => {
 
+    setIsLoading(true);
     const response = await api.post('/mail', data);
 
     if (response.status === 200) {
       toast.success("Mensagem enviada com sucesso!")
+      setIsLoading(false);
     } else {
       toast.error('Ocorreu um erro ao enviar sua mensagem!');
+      setIsLoading(false);
     }
 
     reset();
@@ -107,7 +115,19 @@ export function Contact() {
             />
             {errors.message && <span className="error">A mensagem é obrigatória</span>}
 
-            <button type="submit">Enviar</button>
+            <button type="submit">
+              {isLoading ?
+                (
+                  <motion.div
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                  >
+                    <AiOutlineLoading3Quarters size={20}/>
+                  </motion.div>
+                ) :
+                'Enviar'
+              }
+            </button>
           </form>
         </div>
       </C.Section>
