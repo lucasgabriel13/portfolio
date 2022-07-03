@@ -12,12 +12,17 @@ export function Header() {
   }
 
   return (
-    //@ts-ignore
-    <Fade direction="down" triggerOnce>
-      <C.Header>
-        <img src="/images/logo.svg" alt="Logo Lucas Gonçalves" />
 
-        <nav className={`${menuIsOpen && "show"}`}>
+
+    <C.Header>
+      {/*@ts-ignore */}
+      <Fade direction="down" triggerOnce>
+        <img src="/images/logo.svg" alt="Logo Lucas Gonçalves" />
+      </Fade>
+
+      <nav className={`${menuIsOpen && "show"}`}>
+        {/*@ts-ignore */}
+        <Fade direction="down" triggerOnce>
           <ul className="menu">
             <li>
               <a href="#about" onClick={handleToggleOpenMenu}>
@@ -40,14 +45,19 @@ export function Header() {
               </a>
             </li>
           </ul>
-
+        </Fade>
+        {/*@ts-ignore */}
+        <Fade direction="down" triggerOnce>
           <CgMenuRightAlt
             className="toggle openMenu"
             onClick={handleToggleOpenMenu}
           />
-          <CgClose className="toggle closeMenu" onClick={handleToggleOpenMenu} />
-        </nav>
-      </C.Header>
-    </Fade>
+        </Fade>
+
+        <CgClose className="toggle closeMenu" onClick={handleToggleOpenMenu} />
+
+      </nav>
+    </C.Header >
+
   );
 }

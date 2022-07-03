@@ -8,11 +8,15 @@ import { Fade } from "react-awesome-reveal";
 export function Projects() {
 
   return (
-    //@ts-ignore
-    <Fade direction="left" triggerOnce>
-      <C.Section id="projects">
-        <Title title="Projetos" />
 
+    <C.Section id="projects">
+
+      {/*@ts-ignore */}
+      <Fade direction="left" triggerOnce>
+        <Title title="Projetos" />
+      </Fade>
+      {/*@ts-ignore */}
+      <Fade direction="left" triggerOnce>
         <div className="projectsContainer">
           {repos?.map((repo) => (
             <div className="projectContent" key={repo.id}>
@@ -32,7 +36,9 @@ export function Projects() {
             </div>
           ))}
         </div>
-
+      </Fade >
+      {/*@ts-ignore */}
+      <Fade direction="left" triggerOnce>
         <a
           className="githubLink"
           href="https://github.com/lucasgabriel13"
@@ -41,8 +47,9 @@ export function Projects() {
           <FaGithub size={30} />
           <span>Ver mais projetos</span>
         </a>
+      </Fade>
 
-      </C.Section>
-    </Fade>
+    </C.Section>
+
   )
 }
