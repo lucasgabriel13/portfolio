@@ -13,6 +13,18 @@ export default function Home() {
     <>
       <Head>
         <title>Lucas Gonçalves | Desenvolvedor Front-end</title>
+        <meta name="description" content="Olá, sou o Lucas Gonçalves! Desenvolvedor 
+        Front-end há mais de 1 ano com conhecimentos sólidos nas tecnologias HTML, CSS, 
+        Javascript e React. Sou graduado em Sistemas de Informação e atuo na área de TI há mais de 
+        5 anos." />
+        <meta property='og:title' content='Lucas Gonçalves | Desenvolvedor Front-end' />
+        <meta
+          property='og:description'
+          content='Desenvolver Front-end com conhecimentos sólidos nas tecnologias HTML, CSS, 
+          Javascript e React'
+        />
+        <meta property='og:url' content='https://lucasgoncalves.vercel.app/' />
+        <meta property='og:type' content='website' />
       </Head>
       <ToastContainer
         position="top-right"
