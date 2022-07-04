@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ![logo](https://user-images.githubusercontent.com/44211093/177168883-da09049c-5b94-48a3-a744-02b49e03c3a0.png)
 
-## Getting Started
+![portfolio-mockup](https://user-images.githubusercontent.com/44211093/177169439-32899f39-c7cd-4c35-bd3c-c521db2f5b87.png)
 
-First, run the development server:
+Olá, seja bem-vindo ao meu portfólio. Nesse projeto você encontra os projetos que desenvolvi até o prensente momento, minhas informações de contato e um pouco sobre mim e minha trajetória como desenvolvedor.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+🖱️ - [Clique aqui para acessar o portfólio](https://lucasgoncalves.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Tecnologias
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [ ] React
+- [ ] Next.js
+- [ ] Typescript
+- [ ] React-hook-form
+- [ ] Axios
+- [ ] Framer motion
+- [ ] Styled Components
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Desenvolvido com ❤️ por Lucas Gonçalves</p>
