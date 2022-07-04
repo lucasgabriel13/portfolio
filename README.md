@@ -2,7 +2,7 @@
 
 ![portfolio-mockup](https://user-images.githubusercontent.com/44211093/177169439-32899f39-c7cd-4c35-bd3c-c521db2f5b87.png)
 
-Olá, seja bem-vindo ao meu portfólio. Nesse projeto você encontra os projetos que desenvolvi até o prensente momento, minhas informações de contato e um pouco sobre mim e minha trajetória como desenvolvedor.
+Olá, seja bem-vindo ao meu portfólio. Nesse projeto você encontra os projetos que desenvolvi até o presente momento, minhas informações de contato e um pouco sobre mim e minha trajetória como desenvolvedor.
 
 🖱️ - [Clique aqui para acessar o portfólio](https://lucasgoncalves.vercel.app/)
 
