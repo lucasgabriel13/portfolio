@@ -5,6 +5,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   h3 {
     font-size: 2rem;
@@ -12,6 +13,7 @@ export const Card = styled.div`
 
   img {
     width: 6rem;
+    height: 6rem;
   }
 
   @media screen and (max-width: 425px) {
@@ -20,6 +22,7 @@ export const Card = styled.div`
     }
     img {
       width: 4rem;
+      height: 4rem;
     }
   }
 `
