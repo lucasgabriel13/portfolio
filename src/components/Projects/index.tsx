@@ -26,10 +26,10 @@ export function Projects() {
                 {repo.description}
               </p>
               <footer>
-                <a href={repo.github_url}>
+                <a href={repo.github_url} target={`_blank`}>
                   Repositório
                 </a>
-                <a href={repo.homepage}>
+                <a href={repo.homepage} target={`_blank`}>
                   Acessar
                 </a>
               </footer>
