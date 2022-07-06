@@ -49,9 +49,10 @@ export const Section = styled.section`
     }
 
     p {
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin-top: 2rem;
       line-height: 2rem;
+      line-height: 2.2rem;
     }
     
   }

@@ -27,8 +27,8 @@ export const Section = styled.section`
     flex-wrap: wrap;
 
     .projectContent{
-      max-width: 19rem;
-      max-height: 28.75rem;
+      max-width: 19.5rem;
+      max-height: 30rem;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -59,7 +59,7 @@ export const Section = styled.section`
       }
 
       p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 24px;
         letter-spacing: 0.05em;
         margin-top: 1.25rem;

@@ -60,6 +60,10 @@ const GlobalStyle = createGlobalStyle`
     font: 400 1rem "Smooch Sans", sans-serif;
   }
 
+  p {
+    font: 400 1rem "Roboto Condensed", sans-serif;
+  }
+
   button {
     cursor: pointer;
   }

@@ -29,7 +29,7 @@ export const Section = styled.section`
         font-size: 2.375rem;
       }
       p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin-top: 2.25rem;
       }
     }
